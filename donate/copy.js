@@ -15,11 +15,3 @@ function copy(type) {
     document.execCommand('copy');
     document.body.removeChild(input);
 }
-
-document.querySelector('#btc').onclick = function() {
-    copy('btc');
-}
-
-document.querySelector('#eth').onclick = function() {
-    copy('eth');
-}
