@@ -10,18 +10,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#000000">
-    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="Offline">
     <meta name="application-name" content="Offline">
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="../favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 </head>
 
@@ -39,11 +39,29 @@
         <h5>US Dollar</h5>
         <a class="button button-primary" href="https://ko-fi/gideontong" target="_blank">Donate a Coffee</a>
         <a class="button button-primary" href="https://patreon.com/gideontong" target="_blank">Become a Patreon</a>
+        <h5>Cryptocurrency</h5>
+        <p>
+            <b>Bitcoin:</b>
+            <code>
+                bc1qzdjcskxtylm0ujz5xxqgzdn504dhkh2ml4g2yx
+            </code>
+            <button class="button" id="btc">Copy</button>
+            <a class="button" href="bitcoin.html">View QR</a>
+        </p>
+        <p>
+            <b>Ethereum:</b>
+            <code>
+                0x5a08a4110283E4D8F2adDDaC603CC4f06397b5D8
+            </code>
+            <button class="button" id="eth">Copy</button>
+            <a class="button" href="ethereum.html">View QR</a>
+        </p>
     </div>
     <div class="container">
         <h5>Want to go back?</h5>
-        <a class="button button-primary" href="index.html">Back Home</a>
+        <a class="button button-primary" href="../index.html">Back Home</a>
     </div>
+    <script src="copy.js"></script>
 </body>
 
 </html>
